@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta Rel dan Stasiun Kereta Api Lampung</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="awal">
+        <img src="Logo.png" alt="" style="height: 140px;">
+        <h1 style="font-family: sans-serif;">Peta Rel dan Stasiub Kereta Provinsi Lampung</h1>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Cari stasiun...">
+            <button onclick="searchStation()">Cari</button>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div id="station-list">
+        <h2>Daftar Nama Stasiun</h2>
+        <ul id="station-names">
+            
+        </ul>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
